@@ -123,6 +123,7 @@ ul {
 }
 
 .menu ul li a {
+    display: block;
     padding: 5px 5px;
     color: var(--clr-white);
     font-size: 26px;
@@ -138,10 +139,31 @@ ul {
     color: var(--clr-primary-blue);
 
 }
-
-.active {
+.active{
     border-bottom: var(--clr-secondary-pink)solid;
 
+}
+
+/* hamburger menu section */
+.hamburger {
+    display: none;
+}
+
+#hamburger-menu {
+    display: none;
+
+}
+
+#hamburger-menu:checked~nav {
+    display: block;
+}
+
+label[for=hamburger-menu] {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
 }
 
 
@@ -151,7 +173,7 @@ ul {
 }
 
 .hero-img {
-    flex: 1;
+    flex:1;
     display: block;
     position: relative;
     background-size: cover;
@@ -248,16 +270,13 @@ ul {
     line-height: 1.75;
     justify-content: space-around;
 }
-.heading-section{
-    display: block;
-    justify-content: center;
-}
+
 .main-title {
     display: flex;
     font-family: var(--font-main);
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 2px 2px rgb(65, 0, 0);
+    text-shadow:2px 2px rgb(65, 0, 0);
     font-size: 40px;
     color: var(--clr-secondary-pink);
     justify-content: center;
@@ -360,7 +379,7 @@ hr.colored {
     font-size: 24px;
     font-family: var(--font-main);
     letter-spacing: 2.5px;
-    text-shadow: 3px 3px rgb(77, 37, 0);
+    text-shadow:3px 3px rgb(77, 37, 0);
     font: weight 600px;
     text-transform: uppercase;
     text-align: center;
@@ -376,14 +395,12 @@ hr.colored {
     color: var(--clr-white);
     text-transform: uppercase;
     text-align: center;
-    background-color: rgb(17, 13, 13);
+    background-color:rgb(17, 13, 13);
 }
+.read-more{
 
-.read-more {
-
-    color: var(--clr-secondary-pink);
+    color:var(--clr-secondary-pink);
 }
-
 .fas {
     color: var(--clr-secondary-pink);
     cursor: pointer;
@@ -397,8 +414,16 @@ hr.colored {
 /* footer section */
 footer {
     background-color: var(--clr-primary-yellow);
+   
+  
+}
 
+.pagefold {
+    height: 100%;
+}
 
+main {
+    height: 100%
 }
 
 .footer-container {
@@ -457,5 +482,66 @@ footer {
     color: var(--clr-white);
     background-color: rgb(20, 20, 20);
     font-variant: small-caps;
+
+}
+
+@media screen and (max-width: 1124px) {
+    .logo {
+        width: 10%;
+        font-size: 14px;
+        flex:0.35;
+
+    }
+
+    .welcome {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 10px 30px;
+
+    }
+
+    nav li {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger nav {
+        display: block;
+    }
+    .main-title,h1,h2,h3 {
+
+    font-size: 24px; 
+    
+    }
+    .underline{
+        width:50px;
+    }
+
+    .explore-container {
+        flex-direction: column-reverse;
+    }
+
+    .bottom-container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+       
+    }
+
+    .footer-logo {
+        width: 15%;
+    }
+
+    .footer-backtotop {
+        margin-left: auto;
+    }
 
 }
