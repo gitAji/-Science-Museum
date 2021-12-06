@@ -541,7 +541,12 @@ main {
     font-variant: small-caps;
 
 }
-
+/* form styling here */
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
 /* exhibition page */
 .exhibition-container {
     display: grid;
