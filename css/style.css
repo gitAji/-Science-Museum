@@ -581,7 +581,7 @@ input {
 }
 
 /* grid container  */
-.grid-container {
+.exhibition-container {
     display: grid;
     grid-template-columns: 49% 49%;
     grid-auto-rows: auto;
