@@ -770,7 +770,7 @@ text-justify: inter-word;
     }
 
     .exhibition-container {
-        grid-template-columns: 100%;
+        grid-template-columns: 1fr 1fr;
         grid-auto-rows: auto;
         margin: 20px 20px;
     }
