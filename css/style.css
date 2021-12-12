@@ -759,7 +759,8 @@ footer {
 }
 
 .visit-map {
-    grid-column: 1fr;
+    
+   margin:0;
 }
 
 .visit-map img {
@@ -774,7 +775,7 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 50px;
-    grid-column: 1fr;
+  
 
 
 }
