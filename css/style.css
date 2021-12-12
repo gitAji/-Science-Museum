@@ -910,8 +910,8 @@ input {
 @media screen and (max-width:524px) {
 
     .logo {
-        width: 15%;
-        font-size: 12px;
+        width: 25%;
+        font-size: 14px;
        
 
     }
@@ -922,7 +922,7 @@ input {
     }
 
     .hero-img img {
-        height: 75vh;
+        height: 80vh;
         object-fit: cover;
     }
 
