@@ -95,7 +95,7 @@ ul {
 
 .logo span {
     letter-spacing: 5px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     padding: 10px;
     background-image: linear-gradient(-90deg, #753f008a, #8b4a00a2);
@@ -323,7 +323,7 @@ label[for=hamburger-menu] {
 }
 
 .left-column h2 {
-    font-family: var(--font-main); 
+    font-family: var(--font-main);
     color: var(--clr-white);
     text-decoration: underline;
     font-variant: small-caps;
@@ -472,7 +472,7 @@ hr.thick-colored {
     font-family: var(--font-main);
     letter-spacing: 2.5px;
     text-shadow: 3px 3px rgb(77, 37, 0);
-    font-weight: 600px;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
 
@@ -483,7 +483,7 @@ hr.thick-colored {
     font-size: 36px;
     font-family: "Helvetica";
     letter-spacing: 2.5px;
-    font-weight: 600px;
+    font-weight: 800;
     color: var(--clr-white);
     text-transform: uppercase;
     text-align: center;
@@ -514,7 +514,6 @@ footer {
 
 .footer-container {
     display: flex;
-    flex-basis: 4;
     position: relative;
     justify-content: space-between;
     padding: 20px 20px;
@@ -525,7 +524,6 @@ footer {
 }
 
 .footer-logo {
-
     height: 10%;
     width: 10%;
 }
@@ -630,7 +628,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    
+
 }
 
 .event {
@@ -761,7 +759,7 @@ footer {
 }
 
 .visit-map {
-    grid-column: 1fr;
+    grid-column: 1fr 60px;
 }
 
 .visit-map img {
@@ -776,7 +774,7 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 50px;
-    grid-column: 1fr;
+    grid-column: 1fr 60px;
 
 
 }
@@ -840,7 +838,7 @@ footer {
 .facilities p {
     padding-block: 12px;
     line-height: 1.5;
-    text-align:justify;
+    text-align: justify;
 }
 
 /* visit page ends */
@@ -913,7 +911,7 @@ input {
     .logo {
         width: 25%;
         font-size: 14px;
-       
+
 
     }
 
@@ -991,7 +989,7 @@ input {
 
     .event-box {
         grid-template-columns: 1fr;
-    
+
     }
 
     .get-involved {
@@ -1045,6 +1043,7 @@ input {
         grid-template-columns: 1fr;
 
     }
+
     .visit {
 
         grid-template-columns: 1fr;
