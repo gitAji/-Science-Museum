@@ -539,7 +539,7 @@ footer {
 .footer-section h3 {
     padding: 12px 0;
     font-size: 18px;
-    font-weight: 300px;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 8px;
 
@@ -759,7 +759,7 @@ footer {
 }
 
 .visit-map {
-    grid-column: 1fr 60px;
+    grid-column: 1fr;
 }
 
 .visit-map img {
@@ -774,7 +774,7 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 50px;
-    grid-column: 4,1fr;
+    grid-column: 1fr;
 
 
 }
