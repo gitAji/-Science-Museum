@@ -79,6 +79,7 @@ ul {
 .header {
     display: flex;
     position: relative;
+    height: auto;
     background-color: var(--clr-primary-yellow);
 }
 
@@ -681,6 +682,7 @@ footer {
 .get-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 20px;
     gap: 60px;
 }
 
@@ -699,6 +701,7 @@ footer {
 
 .get-grid p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .get-involved {
@@ -731,7 +734,7 @@ footer {
 }
 
 .get-involved p {
-    line-height: 1.5;
+    
     color: var(--clr-light-grey);
 }
 
@@ -759,8 +762,8 @@ footer {
 }
 
 .visit-map {
-    
-   margin:0;
+
+    margin: 0;
 }
 
 .visit-map img {
@@ -775,7 +778,7 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 50px;
-  
+
 
 
 }
