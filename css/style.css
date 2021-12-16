@@ -513,7 +513,10 @@ hr.thick-colored {
     color: var(--clr-primary-blue);
 }
 .fas-text{
-    font-size: 12px;
+    font-size: 11px;
+    color:var(--clr-black);
+    text-transform:uppercase;
+
 }
 
 /* footer section */
