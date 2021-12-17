@@ -36,19 +36,19 @@ h3 {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 34px;
     color: var(--clr-white);
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 24px;
     color: var(--clr-primary-blue);
     text-align: center;
 }
 
 p {
     font-family: var(--font-sub);
-    font-size: 1.15rem;
+    font-size: 20px;
     line-height: 1.75;
 
 }
@@ -363,7 +363,7 @@ label[for=hamburger-menu] {
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 2px 2px rgb(136, 1, 1);
-    font-size: 40px;
+    font-size: 36px;
     color: var(--clr-secondary-pink);
     justify-content: center;
     padding: 20px;
@@ -513,6 +513,7 @@ hr.thick-colored {
     color: var(--clr-primary-blue);
 }
 .fas-text{
+    margin-block: 5px 5px;
     font-size: 11px;
     color:var(--clr-black);
     text-transform:uppercase;
