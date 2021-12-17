@@ -616,6 +616,7 @@ footer {
     padding: 12px;
     background: var(--clr-light-bg);
     max-width: 1280px;
+    min-width: 100%;
     margin: 20px auto;
 }
 
@@ -1073,6 +1074,7 @@ input {
 
     .event-box {
         grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
     }
 
     .get-involved {
