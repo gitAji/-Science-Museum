@@ -1134,6 +1134,6 @@ input {
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) { 
         .logo-title {
-            margin-block: 25px;
+            margin-top: 40px;
         }
     }
