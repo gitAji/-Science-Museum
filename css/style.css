@@ -1029,8 +1029,7 @@ input {
     }
 
     .event-box {
-        grid-template-columns:100%;
-        grid-auto-rows: auto;
+        grid-template-columns: 1fr;
 
     }
 
