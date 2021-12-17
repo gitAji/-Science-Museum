@@ -286,7 +286,7 @@ label[for=hamburger-menu] {
 .scroll-down {
     display: block;
     position: absolute;
-    bottom: 30px;
+    bottom: 35px;
     left: 50%;
     z-index: 2;
 
