@@ -362,32 +362,12 @@ label[for=hamburger-menu] {
     font-family: var(--font-main);
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 2px 2px rgb(136, 1, 1);
+    text-shadow: 2px 2px rgb(85, 1, 1);
     font-size: 36px;
     color: var(--clr-secondary-pink);
     justify-content: center;
     padding: 20px;
     margin-bottom: 15px;
-
-
-}
-
-/* color borders */
-.blue-bg {
-    border: 1px dotted var(--clr-primary-blue);
-
-}
-
-.pink-bg {
-    border: 1px dotted var(--clr-secondary-pink);
-}
-
-.yellow-bg {
-    border: 1px dotted var(--clr-primary-yellow);
-}
-
-.green-bg {
-    border: 1px dotted var(--clr-secondary-green);
 }
 
 /* bottom flex area */
@@ -413,7 +393,7 @@ label[for=hamburger-menu] {
 }
 
 .bottom-box:hover {
-    background: linear-gradient(135deg, hsl(180, 100%, 15%) 0%, #9c6408 100%);
+    background: linear-gradient(135deg, hsla(42, 100%, 24%, 0.993) 0%, #343500f6 100%);
     color: white;
 }
 
