@@ -1134,6 +1134,6 @@ input {
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) { 
         .logo-title {
-           justify-content:center;
+           justify-content:space-around;
         }
     }
