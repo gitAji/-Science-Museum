@@ -746,13 +746,13 @@ footer {
 
 /* visit page */
 .container {
-    margin: 20px 20px;
+    margin: 30px 30px;
 }
 
 .visit {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 12px;
+    grid-gap: 20px;
 
 }
 
